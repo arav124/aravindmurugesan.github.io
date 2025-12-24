@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+  background: #020617;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.logo {
+  color: #38bdf8;
+}
+
+.home {
+  padding: 100px 10%;
+  text-align: center;
+}
+
+.home span {
+  color: #38bdf8;
+}
+
+.buttons a {
+  margin: 10px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+section {
+  padding: 80px 10%;
+}
+
+h2 {
+  color: #38bdf8;
+  margin-bottom: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.skills-grid span {
+  background: #020617;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.project-card {
+  background: #020617;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: scale(1.02);
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
