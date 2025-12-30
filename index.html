@@ -8,103 +8,120 @@
 </head>
 <body>
 
-<!-- NAVBAR -->
-<header>
-  <div class="nav-container">
+<header class="navbar">
+  <div class="container">
     <h1 class="logo">Aravind<span>.</span></h1>
     <nav>
       <a href="#about">About</a>
       <a href="#skills">Skills</a>
       <a href="#projects">Projects</a>
+      <a href="#experience">Experience</a>
       <a href="#contact">Contact</a>
     </nav>
   </div>
 </header>
 
-<!-- HERO -->
 <section class="hero">
-  <div class="hero-content">
-    <h2>Hi, I'm <span>Aravind M</span></h2>
-    <h3>Machine Learning & Python Developer</h3>
+  <div class="container">
+    <h2>Machine Learning & Python Developer</h2>
     <p>
-      MCA student specializing in Machine Learning, Deep Learning, and backend
-      development. I build intelligent systems and real-world applications.
+      MCA student with hands-on experience building machine learning models,
+      recommendation systems, and backend applications.
     </p>
-
-    <div class="hero-buttons">
-      <a class="btn primary" href="https://github.com/arav124" target="_blank">GitHub</a>
-      <a class="btn secondary" href="https://www.linkedin.com/in/aravind282004/" target="_blank">LinkedIn</a>
-    </div>
   </div>
 </section>
 
-<!-- ABOUT -->
 <section id="about" class="section">
-  <h2>About Me</h2>
-  <p class="section-text">
-    I am a postgraduate MCA student at the University of Madras with strong hands-on
-    experience in Machine Learning, Deep Learning, and Python. I have worked on
-    real-world projects including recommendation systems, computer vision models,
-    and backend-driven web applications using Flask.
-  </p>
-</section>
-
-<!-- SKILLS -->
-<section id="skills" class="section dark">
-  <h2>Skills</h2>
-  <div class="skills-grid">
-    <div>Python</div>
-    <div>Machine Learning</div>
-    <div>Deep Learning</div>
-    <div>TensorFlow</div>
-    <div>Keras</div>
-    <div>PyTorch</div>
-    <div>Flask</div>
-    <div>Scikit-learn</div>
-    <div>GitHub</div>
-    <div>Linux</div>
+  <div class="container narrow">
+    <h3>About Me</h3>
+    <p>
+      I am a postgraduate student pursuing MCA with strong interest in Machine Learning,
+      Deep Learning, and backend development using Python and Flask. I enjoy working on
+      real-world projects and building practical, data-driven solutions.
+    </p>
   </div>
 </section>
 
-<!-- PROJECTS -->
+<section id="skills" class="section light">
+  <div class="container">
+    <h3>Skills</h3>
+    <div class="grid skills">
+      <div>Python</div>
+      <div>Machine Learning</div>
+      <div>Deep Learning</div>
+      <div>TensorFlow</div>
+      <div>Keras</div>
+      <div>PyTorch</div>
+      <div>Flask</div>
+      <div>Scikit-learn</div>
+      <div>GitHub</div>
+      <div>Linux</div>
+    </div>
+  </div>
+</section>
+
 <section id="projects" class="section">
-  <h2>Projects</h2>
+  <div class="container">
+    <h3>Projects</h3>
 
-  <div class="projects-grid">
-    <div class="project-card">
-      <h3>ASL Recognition System</h3>
-      <p>
-        CNN-based hand gesture recognition system trained on 42,000+ images with
-        real-time webcam prediction.
-      </p>
-      <button onclick="openProject()">View Project</button>
-    </div>
+    <div class="grid projects">
+      <div class="card">
+        <h4>ASL Recognition System</h4>
+        <p>
+          CNN-based hand gesture recognition system trained on 42,000+ images
+          with real-time webcam prediction.
+        </p>
+        <button>View Project</button>
+      </div>
 
-    <div class="project-card">
-      <h3>TANCET College Predictor</h3>
-      <p>
-        Machine learning system that recommends top 5 colleges based on rank,
-        community, and historical cutoff data.
-      </p>
-      <button onclick="openProject()">View Project</button>
-    </div>
+      <div class="card">
+        <h4>TANCET College Predictor</h4>
+        <p>
+          Machine learning system that recommends top 5 colleges based on rank,
+          community, and historical cutoff data.
+        </p>
+        <button>View Project</button>
+      </div>
 
-    <div class="project-card">
-      <h3>Music Recommendation System</h3>
-      <p>
-        Flask-based application that suggests similar songs using audio feature
-        similarity.
-      </p>
-      <button onclick="openProject()">View Project</button>
+      <div class="card">
+        <h4>Music Recommendation System</h4>
+        <p>
+          Flask-based application recommending similar songs using audio feature similarity.
+        </p>
+        <button>View Project</button>
+      </div>
     </div>
   </div>
 </section>
 
-<!-- CONTACT -->
-<section id="contact" class="section dark">
-  <h2>Contact</h2>
-  <p>Email: <strong>aravindmurugesan0803@gmail.com</strong></p>
-  <p>Location: Virudhunagar, Tamil Nadu</p>
+<section id="experience" class="section light">
+  <div class="container narrow">
+    <h3>Experience</h3>
+
+    <div class="experience">
+      <h4>Machine Learning Intern – NASO Technologies</h4>
+      <p>
+        Built a Flask-based music recommendation system, implemented audio feature
+        extraction, similarity computation, and testing pipelines.
+      </p>
+    </div>
+
+    <div class="experience">
+      <h4>Python Developer Intern – Xenforte Technologies</h4>
+      <p>
+        Contributed to an invoice management system, implemented backend logic,
+        validations, and performance improvements.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container narrow">
+    <h3>Contact</h3>
+    <p>Email: <strong>aravindmurugesan0803@gmail.com</strong></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/aravind282004/" target="_blank">View Profile</a></p>
+  </div>
 </section>
 
 <footer>
