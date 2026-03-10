@@ -131,3 +131,13 @@ footer {
   border-radius: 6px;
   font-weight: 500;
 }
+.project-img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.project-links a {
+  margin-right: 12px;
+  font-size: 14px;
+  font-weight: 500;
+}
