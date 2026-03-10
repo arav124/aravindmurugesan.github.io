@@ -141,3 +141,10 @@ footer {
   font-size: 14px;
   font-weight: 500;
 }
+.project-links {
+  margin-top: 15px;
+}
+
+.project-links .btn {
+  margin-right: 10px;
+}
