@@ -148,3 +148,18 @@ footer {
 .project-links .btn {
   margin-right: 10px;
 }
+.about-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.about-img img {
+  width: 100%;
+  max-width: 350px;
+}
+
+.about-text {
+  max-width: 600px;
+}
