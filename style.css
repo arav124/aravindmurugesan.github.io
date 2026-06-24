@@ -163,3 +163,19 @@ footer {
 .about-text {
   max-width: 600px;
 }
+.achievements,
+.certifications,
+.education {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.certifications .card,
+.achievements .card,
+.education .card {
+  min-height: 180px;
+}
+
+.experience p,
+.card p {
+  margin-top: 8px;
+}
